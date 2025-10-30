@@ -56,13 +56,4 @@ Creates a spatial Gaussian kernel with `fspecial('gaussian',[1 7], 1.2)`, applie
 
 ---
 
-## 7) Quick reflections
 
-1. Why ideal LP causes ringing
-   A hard cutoff in frequency corresponds to a sinc-like point spread function in space, which produces overshoot near edges (Gibbs phenomenon).
-2. What `fftshift` does visually
-   Moves the zero frequency and low-frequency content to the image center, making radially symmetric filters and spectra easier to interpret.
-3. When frequency-domain filtering is preferable
-   When kernels are large or non-separable, multiplying in frequency can be more efficient than long spatial convolutions.
-
----
