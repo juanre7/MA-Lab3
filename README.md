@@ -1,23 +1,10 @@
 # Lab 3 — Frequency-Domain Filtering with `fft2`
 
-Short, GitHub-ready notes for the code in `Lab3.txt`. Explanations are concise and each plot has a minimal placeholder you can swap with your saved figure.
 
 ## Overview
 
 You will visualize the 2D Fourier magnitude spectrum, build ideal and Gaussian low-pass filters, apply them in the frequency domain, create a Gaussian high-pass via complement, and compare spatial vs frequency-domain Gaussian smoothing.
 
-## Data and setup
-
-* Tries `peppers.png`. If missing, uses `cameraman.tif`, replicated to 3 channels, then converted to grayscale and `double`.
-* MATLAB or Octave with Image Processing functions (`fft2`, `ifft2`, `fftshift`, `ifftshift`, `imshow`, `montage`, `fspecial`, `imfilter`).
-
-## How to run
-
-1. Put the script and input image(s) in the same folder.
-2. Run the script.
-3. Save each figure as a PNG and replace the placeholders below with your actual paths.
-
----
 
 ## 1) Input and preprocessing
 
